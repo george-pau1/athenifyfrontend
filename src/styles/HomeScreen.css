@@ -1,0 +1,93 @@
+.lightning-button {
+    /* background-color: #1a0cd6; Neon pink base */
+    border: none;
+    color: white;
+    box-shadow: 0 0 20px rgba(63, 63, 63, 0.066), 0 0 40px rgba(255, 255, 255, 0.409);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* .lightning-button::before {
+    content: '';
+    position: absolute;
+    top: -200%;
+    left: -200%;
+    width: 400%;
+    height: 400%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 15%, transparent 60%);
+    opacity: 0;
+    pointer-events: none;
+    animation: lightningFlicker 2s infinite linear;
+  }
+  
+  @keyframes lightningFlicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      opacity: 0;
+    }
+    20%, 24%, 55% {
+      opacity: 0.9;
+    }
+  }
+  
+  .lightning-button:hover {
+    box-shadow: 0 0 30px rgba(255, 255, 0, 1), 0 0 60px rgba(255, 255, 0, 0.8);
+  }
+  
+  .lightning-button:hover::before {
+    opacity: 1;
+    animation: lightningStrike 0.3s forwards;
+  }
+  
+  @keyframes lightningStrike {
+    0% {
+      top: -200%;
+      left: -200%;
+    }
+    100% {
+      top: 0%;
+      left: 0%;
+    }
+  }
+  
+  .hover:shadow-lightning {
+    box-shadow: 0 0 50px rgba(255, 255, 0, 1), 0 0 100px rgba(255, 255, 0, 0.8);
+  } */
+  
+.neon-button {
+    background-color: #000000; /* Neon pink */
+    border: none;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .neon-button:hover {
+    box-shadow: 0 0 50px rgba(33, 7, 229, 0.8), 0 0 60px rgba(10, 26, 255, 0.6);
+  }
+  
+
+.neon-text::after {
+    content: '|';
+    opacity: 1;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  
